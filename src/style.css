@@ -3,6 +3,10 @@
     font-family: Marfa;
 }
 
+html{
+    font-family: "Marfa";
+}
+
 body{
     background-color: blue;
 }
