@@ -1,12 +1,22 @@
 @font-face {
-    src: url("fonts/marfa-var.woff2") format("woff2-variations");
-    font-family: Marfa;
+  src: url('fonts/marfa-var.woff2') format('woff2-variations');
+  font-family: Marfa;
 }
 
-html{
-    font-family: "Marfa";
+html {
+  font-family: 'Marfa';
 }
 
-body{
-    background-color: blue;
+body {
+  background-color: rgb(101, 101, 207);
+}
+
+button {
+  background-color: rgb(101, 101, 207);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(18, 18, 98);
+  cursor: pointer;
 }
