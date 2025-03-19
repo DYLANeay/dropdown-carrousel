@@ -1,3 +1,8 @@
+@font-face {
+    src: url("fonts/marfa-var.woff2") format("woff2-variations");
+    font-family: Marfa;
+}
+
 body{
     background-color: blue;
 }
