@@ -7,16 +7,52 @@ html {
   font-family: 'Marfa';
 }
 
+a {
+  color: black;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
 body {
-  background-color: rgb(101, 101, 207);
+  background-color: rgb(255, 255, 255);
+}
+
+svg {
+  width: 20%;
 }
 
 button {
-  background-color: rgb(101, 101, 207);
+  background-color: rgb(255, 255, 255);
   border: none;
 }
 
-button:hover {
-  background-color: rgb(18, 18, 98);
+.header {
+  background-color: aqua;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+}
+
+.dropdown {
+  display: flex;
+  width: 20vw;
+  align-items: center;
+}
+
+.dropBtn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.dropBtn svg {
+  order: 1;
+}
+
+a:hover {
+  color: rgb(205, 205, 205);
   cursor: pointer;
 }
