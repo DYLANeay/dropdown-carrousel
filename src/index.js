@@ -8,7 +8,7 @@ const nextButton = document.getElementById('carousel-button-next')
 const prevButton = document.getElementById('carousel-button-prev')
 const dots = document.getElementsByClassName('dot')
 let position = 0
-const numberOfSlides = slides.length
+const numberOfSlides = slides.length // incroyable je pensais pas que ça marcherais
 
 function hideAllSlides() {
   // remove all slides not currently being viewed
@@ -49,11 +49,9 @@ const handleMoveToPrevSlide = function (e) {
   // make current slide visible
   slides[position].classList.add('carousel-item-visible')
 
-  // update dot to represent current slide
   dots[position].classList.add('selected-dot')
   dots[position].checked = true
 }
 
-// listen for slide change events
 nextButton.addEventListener('click', handleMoveToNextSlide)
 prevButton.addEventListener('click', handleMoveToPrevSlide)

@@ -105,7 +105,7 @@ a:hover {
 
 .carousel .carousel-item,
 .carousel .carousel-item-hidden {
-  display: none; /* hide all slide images not currently being viewed */
+  display: none;
 }
 
 .carousel .carousel-item-visible {
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .carousel .carousel-actions button#carousel-button-prev {
-  margin-left: 20px; /* prevent previous button from touching the side*/
+  margin-left: 20px;
 }
 
 .carousel .carousel-actions button#carousel-button-next {
@@ -153,6 +153,8 @@ a:hover {
 }
 
 .dot {
+  background-color: black;
+  accent-color: grey;
   opacity: 0.7; /* gray out dots for slides not being visted */
 }
 
